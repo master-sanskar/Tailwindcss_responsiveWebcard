@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tailwind Css</title>
+</head>
+
+<body class="bg-slate-800 grid place-content-center h-screen">
+    <h1 class="text-white text-4xl m-4">(Web Card) Responsive</h1>
+
+    <div class="">
+        <div class="p-3 max-w-sm mx-auto rounded-xl bg-white shadow-lg flex items-center space-x-4">
+            <div>
+                <img class="h-20 w-23"
+                    src="https://images.unsplash.com/photo-1621460244115-aae28aad2b45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60"
+                    alt="">
+            </div>
+            <div class="text-3xl font-medium">
+                Porsche Car logo
+                <p class="text-slate-800 text-lg ">By Sanskar Chaurey</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- hover, focus and other states -->
+    <button class="bg-sky-500 text-center mt-2 text-white text-base p-2 mx-2 rounded-xl
+    hover:bg-slate-200 hover:text-black">Buy Now</button>
+
+    <!-- Responsive Design tailwind css working form mobile first -->
+    <div class="text-center my-2">
+        <p class="text-white sm:text-red-500
+         md:text-green-400">Lorem, ipsum dolor.</p>
+    </div>
+
+    <div class="mt-3">
+        <div class="max-w-sm mx-auto bg-white rounded-xl overflow-hidden md:max-w-lg">
+            <div class="md:flex">
+                <div>
+                    <img class="h-38 w-full object-cover md:h-full md:w-36"
+                        src="https://images.unsplash.com/photo-1693762732530-4dc0a135d83a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDU5fHhIeFlUTUhMZ09jfHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+                        alt="">
+                </div>
+                <div class="p-3">
+                    <div class="uppercase tracking-wide text-base text-indigo-800 font-bold">
+                        an awesome card</div>
+                    <a href="#" class="block mt-1 text-red-500 font-semibold hover:text-blue-700">
+                        Tailwind css is amazing once you
+                        understand my <span class="bg-yellow-400 p-[2x] px-[9px] text-black
+                    ">power</span>
+                        make it every thing.</a>
+                    <p class="mt-2 text-slate-900">
+                        Lorem ipsum dollar site,
+                        Provident funds.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
